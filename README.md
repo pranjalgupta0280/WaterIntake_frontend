@@ -4,6 +4,25 @@ A modern, responsive, and glassmorphism-styled **React application** (powered by
 
 ---
 
+## 📸 Application Screenshots
+
+### 1. Login Screen
+![Login Screen](./images/Screenshot%202026-08-29%20181022.png)
+
+### 2. User Hydration Dashboard
+![User Dashboard](./images/Screenshot%202026-08-29%20181040.png)
+
+### 3. Log Intake & History Overview
+![Intake History & Logging](./images/Screenshot%202026-08-29%20181059.png)
+
+### 4. Goal Configuration & Validation
+![Goal Setting & Edge Cases](./images/Screenshot%202026-08-29%20181114.png)
+
+### 5. Admin Control Panel & User Records
+![Admin Panel](./images/Screenshot%202026-08-29%20181136.png)
+
+---
+
 ## 🌟 Features & UI Highlights
 
 - **Aesthetic Glassmorphic UI**: Vibrant ocean-tinted theme, gradient text headers, responsive grid layouts, and micro-animations.
@@ -43,7 +62,7 @@ A modern, responsive, and glassmorphism-styled **React application** (powered by
 3. **Configure Environment Variables**:
    Create a `.env` file in the `frontend/` root directory (refer to `.env.example`):
    ```env
-   VITE_API_BASE_URL=http://localhost:5000/api
+   VITE_API_BASE_URL=https://waterintake.onrender.com/api
    ```
 
 4. **Start the development server**:
