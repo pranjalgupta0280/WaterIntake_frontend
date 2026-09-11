@@ -26,7 +26,7 @@ const Login = ({ onSwitchToRegister }) => {
     } finally {
       setLoading(false);
     }
-  };
+  }; 
 
   const handleDemoAdmin = () => {
     setEmail('admin@watertracker.com');

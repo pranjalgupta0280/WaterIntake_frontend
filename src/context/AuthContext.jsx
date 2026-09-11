@@ -58,7 +58,7 @@ export const AuthProvider = ({ children }) => {
 
   const updateUserGoal = (newGoal) => {
     if (user) {
-      const updatedUser = { ...user, dailyGoal: newGoal };
+      const updatedUser = { ...user, waterGoal: newGoal };
       setUser(updatedUser);
       localStorage.setItem('user', JSON.stringify(updatedUser));
     }
